@@ -95,6 +95,7 @@ h2{
 .jumbo2{
     width: calc(60%);
 }
+
 /* section2 */
 .payment-row{
     justify-content: space-between;
@@ -116,15 +117,55 @@ h2{
     color: lightgrey;
     padding-bottom: 20px;
 }
+
 /* section3 */
-.enterprise-row div h3{
-    display: inline-block;
+
+.enterprise-row h5{
+    margin: 10px 0;
 }
-.enterprise-row div .button{
-    text-align: right; 
+.enterprise-col1{
+    width: 65%;
+}
+.enterprise-col2{
+    width: 35%;
+    text-align: right;
 }
 
-.enterprise-row .flex{
-    justify-content: space-between;
+/* section4 */
+.col1{
+    width: 60%;
+}
+.col2{
+    width: 40%;
+}
+.debug .col1{
+    border: 2px dotted red;
+    height: 100px;
+}
+.debug .col2{
+    border: 2px dotted rgb(0, 255, 213);
+    
+}
+.col2 > .button{
+    background-color: white;
+    border: 2px solid grey;
+    color: grey;
+}
+
+/* section5 */
+.col-dropboxbusiness{
+    margin: 0 -10px;
+}
+.row-dropboxbusiness{
+    width: calc((100% / 3) - 20px);
+    margin: 20px 10px;
+}
+.debug .row-dropboxbusiness{
+    border: 2px dotted red;
+    
+    background-color: lightcyan;
+}
+.debug .col-dropboxbusiness{
+    background-color: lightcoral;
 }
 /* FOOTER */
