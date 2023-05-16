@@ -40,13 +40,16 @@ a{
     text-decoration: none;
     
 }
+ul{
+    list-style-type: none;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
     
 }
 .container-wide{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
     
     
@@ -62,6 +65,9 @@ a{
     padding: 5px 10px;
     color: white;
 }
+a{
+    color: inherit;
+}
 /* HEADER */
 header{
     width: 100%;
@@ -70,7 +76,7 @@ header{
     align-items: center;
 }
 header ul,
-ul > li{
+header ul > li{
     display: inline-block;
 }
 
@@ -213,4 +219,28 @@ section:nth-of-type(9) h2{
 .question{
     padding: 10px 0;
 }
+
+
 /* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.col-footer{
+    width: calc(100% / 5);
+    margin-bottom: 40px;
+}
+.col-footer li{
+    padding: 5px 0;
+}
+
+.language{
+    padding: 20px 0;
+}
+.line-break{
+    border-top: 2px solid grey;
+    width: 80px;
+}
