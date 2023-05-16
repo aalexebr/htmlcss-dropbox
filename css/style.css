@@ -6,10 +6,10 @@
 
 }
 /* DEBUG */
-.debug header{
+/* .debug header{
     border: 2px dotted blueviolet;
     background-color: lightcoral;
-}
+} */
 /* .debug ul{
     border: 2px solid black;
 } */
@@ -49,13 +49,13 @@ ul{
     
 }
 .container-wide{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     
     
 }
 .container-small{
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     
 }
@@ -68,6 +68,14 @@ ul{
 a{
     color: inherit;
 }
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.25em;
+}
+
+
 /* HEADER */
 header{
     width: 100%;
@@ -90,6 +98,7 @@ header ul > li{
 .row-left > img{
     line-height: 30px;
     vertical-align: middle;
+    margin-left: 10px;
 }
 header ul > li{
     padding: 0 7px;
@@ -108,7 +117,7 @@ section{
     
 }
 h1{
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: -50px;
 }
 .jumbo1{
@@ -137,19 +146,15 @@ h1{
 
 
 /* section2 */
-section:nth-of-type(2){
-    margin-top: 75px;
-}
+
 .payment-row{
     justify-content: space-between;
 }
 .payment-col{
     width: 30%;
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
 }
-.payment-desc span{
- display: block;
-}
+
 .cost{
     font-weight: bold;
 }
@@ -164,12 +169,8 @@ section:nth-of-type(2){
 .payment-desc li{
     padding: 5px;
 }
-.payment-desc .button{
-    margin: 10px 0 5px 0;
-}
-.payment-desc span{
-    display: block;
-}
+
+
 .payment-desc span a{
     color: #0000FF;
     text-decoration: underline;
@@ -180,7 +181,35 @@ section:nth-of-type(2){
 .payment-desc ul:last-of-type li:before {
     content: '✓';
     color: blue;
+    font-weight: bold;
   }
+  .payment-desc .button{
+    margin: 40px 10px 20px 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+.circle{
+    display: inline-block;
+    border: 2px solid blue;
+    height: 16px;
+    width: 16px;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+.selection-payment{
+    line-height: 20px;
+    margin: 25px 0;
+}
+.selection-payment span:nth-last-of-type(2n+1){
+    margin-right: 20px;
+}
+.selection-payment span{
+    vertical-align: middle;
+}
+
 /* section3 */
 
 .enterprise-row h5{
@@ -195,6 +224,7 @@ section:nth-of-type(2){
 }
 
 /* section4 */
+
 .col1{
     width: 60%;
 }
