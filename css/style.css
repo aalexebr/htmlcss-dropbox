@@ -105,6 +105,7 @@ section{
 }
 .payment-col{
     width: 30%;
+    padding-left: 10px;
 }
 .payment-desc span{
  display: block;
@@ -116,11 +117,30 @@ section{
     text-align: center;
     border: 2px solid lightgoldenrodyellow;
 }
-.payment-desc > span:nth-child(3){
+.payment-desc li:nth-child(2){
     color: lightgrey;
     padding-bottom: 20px;
 }
-
+.payment-desc li{
+    padding: 5px;
+}
+.payment-desc .button{
+    margin: 10px 0 5px 0;
+}
+.payment-desc span{
+    display: block;
+}
+.payment-desc span a{
+    color: #0000FF;
+    text-decoration: underline;
+}
+.payment-desc h6{
+    font-size: 1em;
+}
+.payment-desc ul:last-of-type li:before {
+    content: '✓';
+    color: blue;
+  }
 /* section3 */
 
 .enterprise-row h5{
@@ -243,4 +263,5 @@ footer{
 .line-break{
     border-top: 2px solid grey;
     width: 80px;
+    margin: 20px 0;
 }
