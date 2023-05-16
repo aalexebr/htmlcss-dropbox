@@ -5,3 +5,115 @@
     font-family: 'Open Sans', sans-serif;
 
 }
+/* DEBUG */
+.debug header{
+    border: 2px dotted blueviolet;
+    background-color: lightcoral;
+}
+.debug ul{
+    border: 2px solid black;
+}
+
+.debug .jumbo1{
+    border: 2px dotted blueviolet;
+    background-color: lightcoral;
+   
+}
+.debug .jumbo2{
+    border: 2px dotted rgb(43, 226, 58);
+    background-color: rgb(128, 169, 240);
+    height: 100px;
+}
+.debug .payment-row{
+    border: 2px dotted blueviolet;
+    background-color: lightcoral;
+}
+.debug .payment-col{
+    border: 2px dotted rgb(43, 226, 58);
+    background-color: rgb(128, 169, 240);
+    height: 100px;
+}
+/* GENERAL */
+li,
+ul,
+a{
+    text-decoration: none;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container-wide{
+    max-width: 1200px;
+    margin: auto;
+    
+    
+}
+.container-small{
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.button{
+    display: inline-block;
+    background-color: #0060FF;
+    padding: 5px 10px;
+    color: white;
+}
+/* HEADER */
+header{
+    width: 100%;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul,
+ul > li{
+    display: inline-block;
+}
+
+
+
+
+/* MAIN */
+section{
+    padding: 50px;
+}
+/* jumbo */
+.jumbotron{
+    background-color: #B4D0E7;
+}
+h1,
+h2{
+    text-align: center;
+}
+.jumbo1{
+    width: calc(40%);
+}
+.jumbo2{
+    width: calc(60%);
+}
+/* section2 */
+.payment-row{
+    justify-content: space-between;
+}
+.payment-col{
+    width: 30%;
+}
+.payment-desc span{
+ display: block;
+}
+.cost{
+    font-weight: bold;
+}
+.payment-plan{
+    text-align: center;
+    border: 2px solid lightgoldenrodyellow;
+}
+.payment-desc > span:nth-child(3){
+    color: lightgrey;
+    padding-bottom: 20px;
+}
+/* FOOTER */
