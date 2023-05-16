@@ -74,6 +74,7 @@ header{
     padding: 10px 0;
     justify-content: space-between;
     align-items: center;
+    color: #616161;
 }
 header ul,
 header ul > li{
@@ -90,7 +91,9 @@ header ul > li{
     line-height: 30px;
     vertical-align: middle;
 }
-
+header ul > li{
+    padding: 0 7px;
+}
 
 /* MAIN */
 section{
