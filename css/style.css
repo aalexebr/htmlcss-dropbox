@@ -14,7 +14,7 @@
     border: 2px solid black;
 } */
 
-.debug .jumbo1{
+/* .debug .jumbo1{
     border: 2px dotted blueviolet;
     background-color: lightcoral;
    
@@ -22,8 +22,8 @@
 .debug .jumbo2{
     border: 2px dotted rgb(43, 226, 58);
     background-color: rgb(128, 169, 240);
-    height: 100px;
-}
+    
+} */
 .debug .payment-row{
     border: 2px dotted blueviolet;
     background-color: lightcoral;
@@ -96,22 +96,50 @@ header ul > li{
 }
 
 /* MAIN */
+
 section{
-    padding: 50px;
+    padding:70px 0 50px 0;
 }
+
+
 /* jumbo */
 .jumbotron{
     background-color: #B4D0E7;
+    
 }
-
+h1{
+    font-size: 2em;
+    margin-bottom: -50px;
+}
 .jumbo1{
     width: calc(40%);
 }
 .jumbo2{
     width: calc(60%);
 }
+.jumbo1 .button{
+    margin: 30px 0;
+}
+.jumbo1 span{
+    display: block;
+}
+.jumbo2 img{
+    width: 100%;
+}
+.jumbo-row{
+    position: relative;
+    top: 90px;
+}
+.jumbo1 span >i{
+    margin-top: 60px;
+    font-size: 2em;
+    }
+
 
 /* section2 */
+section:nth-of-type(2){
+    margin-top: 75px;
+}
 .payment-row{
     justify-content: space-between;
 }
