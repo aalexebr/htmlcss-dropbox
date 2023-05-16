@@ -31,7 +31,7 @@
 .debug .payment-col{
     border: 2px dotted rgb(43, 226, 58);
     background-color: rgb(128, 169, 240);
-    height: 100px;
+    
 }
 /* GENERAL */
 li,
@@ -115,5 +115,16 @@ h2{
 .payment-desc > span:nth-child(3){
     color: lightgrey;
     padding-bottom: 20px;
+}
+/* section3 */
+.enterprise-row div h3{
+    display: inline-block;
+}
+.enterprise-row div .button{
+    text-align: right; 
+}
+
+.enterprise-row .flex{
+    justify-content: space-between;
 }
 /* FOOTER */
