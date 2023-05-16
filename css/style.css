@@ -10,9 +10,9 @@
     border: 2px dotted blueviolet;
     background-color: lightcoral;
 }
-.debug ul{
+/* .debug ul{
     border: 2px solid black;
-}
+} */
 
 .debug .jumbo1{
     border: 2px dotted blueviolet;
@@ -71,7 +71,7 @@ a{
 /* HEADER */
 header{
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -80,7 +80,16 @@ header ul > li{
     display: inline-block;
 }
 
-
+.col-header{
+    justify-content: space-between;
+    align-items: center;
+}
+.row-left,
+.row-right,
+.row-left > img{
+    line-height: 30px;
+    vertical-align: middle;
+}
 
 
 /* MAIN */
@@ -117,7 +126,7 @@ section{
     text-align: center;
     border: 2px solid lightgoldenrodyellow;
 }
-.payment-desc li:nth-child(2){
+.payment-desc ul:first-of-type li:nth-child(2){
     color: lightgrey;
     padding-bottom: 20px;
 }
