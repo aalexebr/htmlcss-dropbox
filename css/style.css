@@ -7,14 +7,14 @@
 }
 /* DEBUG */
 
-.debug .col30{
+/* .debug .col30{
     border: 2px dotted red;
     height: 100px;
 }
 .debug .col70{
     border: 2px dotted rgb(0, 255, 213);
     
-}
+} */
 /* GENERAL */
 li,
 ul,
@@ -300,7 +300,6 @@ h1{
 .col-sponsor{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    border: 2px dotted red;
 }
 .row-sponsor-logos{
     width: 100%;
@@ -324,7 +323,7 @@ h1{
     filter: invert(100%);
 }
 .col-sponsor:nth-of-type(n+2){
-    padding: 20px;
+    padding: 40px;
     background-color: #F5F5F5;
 }
 .main-sponsor{
