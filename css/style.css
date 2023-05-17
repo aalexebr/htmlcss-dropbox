@@ -63,7 +63,7 @@ h3{
     width: 40%;
 }
 .line-break{
-    border-top: 2px solid #616161;
+    border-top: 2px solid #b0b0b0;
     width: 80px;
     margin: 20px 0;
 }
@@ -92,16 +92,17 @@ header ul > li{
     align-items: center;
 }
 .row-left,
-.row-right,
-.row-left > img{
+.row-right{
     line-height: 30px;
     vertical-align: middle;
     margin-left: 10px;
 }
 header ul > li{
-    padding: 0 7px;
+    padding: 0 10px;
 }
-
+.row-left a img{
+    vertical-align: middle;
+}
 /* MAIN */
 
 section{
@@ -153,7 +154,7 @@ h1{
 }
 .payment-col{
     width: 30%;
-    border: 2px solid #616161;
+    border: 2px solid #d1d1d1;
 }
 
 .cost{
@@ -161,20 +162,22 @@ h1{
 }
 .payment-plan{
     text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #d1d1d1;
 }
 
 
 /* payment description column */
 .payment-desc{
-    border-top: 2px solid #616161;
-    padding: 0 10px;
+    
+    padding: 20px 10px;
 }
 .payment-desc ul:first-of-type li:nth-child(2){
     color: rgb(159, 157, 157);
     padding-bottom: 20px;
 }
 .payment-desc li{
-    padding: 5px;
+    padding: 10px 0;
 }
 
 
@@ -185,7 +188,7 @@ h1{
 }
 .payment-desc h6{
     font-size: 1em;
-    margin: 20px;
+    margin: 20px 0;
 }
 .payment-desc ul:last-of-type li:before {
     content: '✓';
@@ -239,9 +242,7 @@ h1{
 .enterprise-row .col30{
     text-align: center;
 }
-.payment-plan{
-    border-bottom: 2px solid #616161;
-}
+
 .col30.payment-desc .button{
     margin-top: 10px;
 }
@@ -320,10 +321,11 @@ h1{
 }
 .col-sponsor-logos img{
     width: 100%;
-    fill: white;
+    filter: invert(100%);
 }
 .col-sponsor:nth-of-type(n+2){
     padding: 20px;
+    background-color: #F5F5F5;
 }
 .main-sponsor{
     width: 50%;
@@ -374,9 +376,7 @@ h1{
 .banner h2{
     color: #610829;
 }
-.banner .col30{
-    text-align: center;
-}
+
 .banner .col30 .button{
     background-color: white;
     color: black;
