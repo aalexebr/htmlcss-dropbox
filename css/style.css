@@ -25,11 +25,11 @@
     
 } */
 .debug .payment-row{
-    border: 2px dotted blueviolet;
-    background-color: lightcoral;
+    /* border: 2px dotted blueviolet;
+    background-color: lightcoral; */
 }
 .debug .payment-col{
-    border: 2px dotted rgb(43, 226, 58);
+    /* border: 2px dotted rgb(43, 226, 58); */
     background-color: rgb(128, 169, 240);
     
 }
@@ -166,7 +166,7 @@ h1{
 }
 .payment-col{
     width: 30%;
-    padding: 0 10px 0 10px;
+    border: 2px solid #616161;
 }
 
 .cost{
@@ -174,11 +174,14 @@ h1{
 }
 .payment-plan{
     text-align: center;
-    border: 2px solid lightgoldenrodyellow;
 }
 
 
 /* payment description column */
+.payment-desc{
+    border-top: 2px solid #616161;
+    padding: 0 10px;
+}
 .payment-desc ul:first-of-type li:nth-child(2){
     color: lightgrey;
     padding-bottom: 20px;
@@ -235,30 +238,28 @@ h1{
 }
 
 
-
-.enterprise-row h5{
-    margin: 10px 0;
+/* bottom column full size */
+.enterprise-row .col70 h3,
+.enterprise-row .col70 p{
+    margin: 15px 0;
+}
+.enterprise-row .col70 h4{
+    margin-bottom: 30px;
 }
 
-.enterprise-col2{  
-    text-align: right;
-}
-
-/* section3 */
-
-/* .col1{
-    width: 60%;
-}
-.col2{
-    width: 40%;
-} */
 
 .col30 > .button{
     background-color: white;
-    border: 2px solid grey;
-    color: grey;
+    border: 2px solid #616161;
+    color: #616161;
+    margin-top: 15px;
 }
-
+.enterprise-row .col30{
+    text-align: center;
+}
+.payment-plan{
+    border-bottom: 2px solid #616161;
+}
 /* section4 */
 
 
