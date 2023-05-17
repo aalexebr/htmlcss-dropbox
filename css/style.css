@@ -33,6 +33,14 @@
     background-color: rgb(128, 169, 240);
     
 }
+.debug .col30{
+    border: 2px dotted red;
+    height: 100px;
+}
+.debug .col70{
+    border: 2px dotted rgb(0, 255, 213);
+    
+}
 /* GENERAL */
 li,
 ul,
@@ -73,6 +81,12 @@ h2{
 }
 h3{
     font-size: 1.25em;
+}
+.col70{
+    width: 70%;
+}
+.col30{
+    width: 30%;
 }
 
 
@@ -120,12 +134,12 @@ h1{
     font-size: 3em;
     margin-bottom: -50px;
 }
-.jumbo1{
+/* .jumbo1{
     width: calc(40%);
 }
 .jumbo2{
     width: calc(60%);
-}
+} */
 .jumbo1 .button{
     margin: 30px 0;
 }
@@ -162,6 +176,9 @@ h1{
     text-align: center;
     border: 2px solid lightgoldenrodyellow;
 }
+
+
+/* payment description column */
 .payment-desc ul:first-of-type li:nth-child(2){
     color: lightgrey;
     padding-bottom: 20px;
@@ -190,7 +207,7 @@ h1{
     text-align: center;
   }
 
-
+/* selectionpayment */
 .circle{
     display: inline-block;
     border: 2px solid blue;
@@ -215,31 +232,21 @@ h1{
 .enterprise-row h5{
     margin: 10px 0;
 }
-.enterprise-col1{
-    width: 65%;
-}
-.enterprise-col2{
-    width: 35%;
+
+.enterprise-col2{  
     text-align: right;
 }
 
 /* section4 */
 
-.col1{
+/* .col1{
     width: 60%;
 }
 .col2{
     width: 40%;
-}
-.debug .col1{
-    border: 2px dotted red;
-    height: 100px;
-}
-.debug .col2{
-    border: 2px dotted rgb(0, 255, 213);
-    
-}
-.col2 > .button{
+} */
+
+.col30 > .button{
     background-color: white;
     border: 2px solid grey;
     color: grey;
@@ -263,7 +270,7 @@ h1{
 }
 
 /* section7 */
-section:nth-of-type(7){
+.sponsor{
     padding: 0;
 }
 .row-sponsor{
@@ -286,18 +293,18 @@ section:nth-of-type(7){
 
 /* section8 */
 
-section:nth-of-type(8){
+.banner{
     background-color: #B4D0E7;
 }
-section:nth-of-type(8) .col2{
+.banner .col2{
     text-align: right;
 }
-section:nth-of-type(8) .col2 .button{
+.banner .col2 .button{
     border: none;
 }
 
-/* secion9 */
-section:nth-of-type(9) h2{
+/* section9 */
+.questions h2{
     padding-bottom: 20px;
 }
 .question{
