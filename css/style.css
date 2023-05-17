@@ -6,33 +6,7 @@
 
 }
 /* DEBUG */
-/* .debug header{
-    border: 2px dotted blueviolet;
-    background-color: lightcoral;
-} */
-/* .debug ul{
-    border: 2px solid black;
-} */
 
-/* .debug .jumbo1{
-    border: 2px dotted blueviolet;
-    background-color: lightcoral;
-   
-}
-.debug .jumbo2{
-    border: 2px dotted rgb(43, 226, 58);
-    background-color: rgb(128, 169, 240);
-    
-} */
-.debug .payment-row{
-    /* border: 2px dotted blueviolet;
-    background-color: lightcoral; */
-}
-.debug .payment-col{
-    /* border: 2px dotted rgb(43, 226, 58); */
-    background-color: rgb(128, 169, 240);
-    
-}
 .debug .col30{
     border: 2px dotted red;
     height: 100px;
@@ -83,10 +57,10 @@ h3{
     font-size: 1.25em;
 }
 .col70{
-    width: 70%;
+    width: 60%;
 }
 .col30{
-    width: 30%;
+    width: 40%;
 }
 
 
@@ -260,25 +234,41 @@ h1{
 .payment-plan{
     border-bottom: 2px solid #616161;
 }
+
+/* section 3 */
+.partner .col70 > img{
+    width: 100%;
+}
+.partner .col30{
+    padding: 40px;
+} 
+.partner .col30 *{
+    margin: 10px 0;
+}
 /* section4 */
 
 
 .col-dropboxbusiness{
-    margin: 0 -10px;
+    margin: 0 -20px;
 }
-.row-dropboxbusiness{
-    width: calc((100% / 3) - 20px);
-    margin: 20px 10px;
+.row-1-3{
+    width: calc((100% / 3) - 40px);
+    margin: 20px 20px;
 }
-.debug .row-dropboxbusiness{
+/* .debug .row-1-3{
     border: 2px dotted red;
     
     background-color: lightcyan;
 }
 .debug .col-dropboxbusiness{
     background-color: lightcoral;
+} */
+.row-1-3 > div > img{
+    width: 100%;
 }
-
+.row-1-3 h3{
+    margin-bottom: 15px;
+}
 /* section6 */
 
 
