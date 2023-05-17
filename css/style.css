@@ -194,6 +194,7 @@ h1{
 }
 .payment-desc h6{
     font-size: 1em;
+    margin: 20px;
 }
 .payment-desc ul:last-of-type li:before {
     content: '✓';
@@ -233,7 +234,7 @@ h1{
     margin-top: 40px;
 }
 
-/* section3 */
+
 
 .enterprise-row h5{
     margin: 10px 0;
@@ -243,7 +244,7 @@ h1{
     text-align: right;
 }
 
-/* section4 */
+/* section3 */
 
 /* .col1{
     width: 60%;
@@ -258,7 +259,9 @@ h1{
     color: grey;
 }
 
-/* section5 */
+/* section4 */
+
+
 .col-dropboxbusiness{
     margin: 0 -10px;
 }
@@ -275,7 +278,9 @@ h1{
     background-color: lightcoral;
 }
 
-/* section7 */
+/* section6 */
+
+
 .sponsor{
     padding: 0;
 }
@@ -297,7 +302,7 @@ h1{
     border: 1px solid black;
 }
 
-/* section8 */
+/* section7 */
 
 .banner{
     background-color: #B4D0E7;
@@ -309,7 +314,8 @@ h1{
     border: none;
 }
 
-/* section9 */
+/* section8 */
+
 .questions h2{
     padding-bottom: 20px;
 }
