@@ -227,6 +227,12 @@ h1{
     vertical-align: middle;
 }
 
+
+.payment-col:last-of-type{
+    width: 100%;
+    margin-top: 40px;
+}
+
 /* section3 */
 
 .enterprise-row h5{
