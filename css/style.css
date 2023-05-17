@@ -305,18 +305,44 @@ h1{
 }
 .col-sponsor-logos img{
     width: 100%;
+
 }
 .col-sponsor:nth-of-type(n+2){
     padding: 20px;
 }
-
-
-
-/* logo colors */
-.col-sponsor-logos{
-    
+.main-sponsor{
+    width: 50%;
+}
+.main-sponsor img{
+    width: 100%;
 }
 
+/* logo colors */
+.col-sponsor-logos.green{
+    border: 10px solid #D1E9CD;
+    background-color: #A2D39B;
+}
+.col-sponsor-logos.bordeaux{
+    background-color: #61082B;
+}
+.col-sponsor-logos.acqua{
+    background-color: #0093CE;
+}
+.col-sponsor-logos.red{
+    background-color: #FF1C1C;
+}
+.col-sponsor-logos.darkred{
+    background-color: #D5001F;
+}
+.col-sponsor-logos.ice{
+    background-color: #B4D0E7;
+}
+.col-sponsor-logos.blue{
+    background-color: #0D2481;
+}
+.col-sponsor-logos.yellow{
+    background-color: #FFD830;
+}
 
 /* section7 */
 
