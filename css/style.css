@@ -95,6 +95,20 @@ header ul > li{
 .row-left a img{
     vertical-align: middle;
 }
+
+/* dropdowns */
+.nav-function{
+    position: relative;
+}
+.dropdown-functions{
+    display: none;
+    position: absolute;
+    background-color: #d1d1d1;
+}
+
+.nav-function:hover .dropdown-functions{
+    display: block;
+}
 /* MAIN */
 
 section{
