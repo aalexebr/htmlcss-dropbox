@@ -5,16 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 
 }
-/* DEBUG */
 
-/* .debug .col-small{
-    border: 2px dotted red;
-    height: 100px;
-}
-.debug .col-big{
-    border: 2px dotted rgb(0, 255, 213);
-    
-} */
 /* GENERAL */
 li,
 ul,
@@ -114,6 +105,8 @@ main{
 }
 
 /* jumbo */
+
+
 .jumbotron{
     background-color: #B4D0E7;
     
@@ -122,12 +115,7 @@ h1{
     font-size: 3em;
     margin-bottom: -50px;
 }
-/* .jumbo1{
-    width: calc(40%);
-}
-.jumbo2{
-    width: calc(60%);
-} */
+
 .jumbo1 .button{
     margin: 30px 0;
 }
@@ -141,9 +129,9 @@ h1{
     position: relative;
     top: 100px;
 }
-.jumbo1 span >i{
-    margin-top: 80px;
-    font-size: 2em;
+.jumbo1 span i{
+    margin-top: 90px;
+    font-size: 3em;
     }
 
 
@@ -168,6 +156,7 @@ h1{
 
 
 /* payment description column */
+
 .payment-desc{
     
     padding: 20px 25px;
@@ -206,6 +195,8 @@ h1{
   }
 
 /* selectionpayment */
+
+
 .circle{
     display: inline-block;
     border: 2px solid rgb(173, 173, 173);
@@ -238,6 +229,8 @@ h1{
 
 
 /* bottom column full size */
+
+
 .enterprise-row .col-big h3,
 .enterprise-row .col-big p{
     margin: 15px 0;
@@ -254,6 +247,7 @@ h1{
 .col-small.payment-desc .button{
     margin-top: 10px;
 }
+
 
 /* section 3 */
 
@@ -273,6 +267,8 @@ h1{
     color: #616161;
     margin-top: 15px;
 }
+
+
 /* section4 */
 
 
@@ -292,6 +288,8 @@ h1{
 }
 
 /* section 5 */
+
+
 .col-big h2{
     margin-bottom: 40px;
 }
@@ -345,6 +343,7 @@ h1{
 }
 
 /* logo colors */
+
 .col-sponsor-logos.green{
     border: 10px solid #D1E9CD;
     background-color: #A2D39B;
@@ -391,6 +390,8 @@ h1{
     color: black;
     padding: 10px 20px;
 }
+
+
 /* section8 */
 
 .questions h2{
@@ -411,7 +412,21 @@ h1{
     top: 20px;
     padding: 10px;
 }
-
+.question p{
+    display: none;
+    margin-top: 20px;
+    width: 90%;
+}
+.question-1:hover > p,
+.question-1:hover > .scroll-down{
+    display: block;
+    animation-name: rotate;
+}
+@keyframes rotate {
+    from {
+        0 deg
+    }
+}
 
 /* FOOTER */
 
