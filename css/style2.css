@@ -7,8 +7,13 @@
 }
 
 /* DEBUG */
-
-
+.debug header{
+    border: 2px dotted rgb(108, 10, 10);
+}
+.debug .col{
+    border: 2px dotted rgb(10, 72, 108);
+    background-color: lightcoral;
+}
 
 /* GENERAL */
 
@@ -20,13 +25,55 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
+ul{
+    list-style-type: none;
+}
 
 /* HEADER */
 header{
     color: rgb(131, 132, 132);
-    padding: 30px 20px;
+    padding: 20px;
 }
 header .flex{
     justify-content: space-between;
+}
+
+/* MAIN */
+main{
+    background-color: #FAFBFC;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.row{
+    justify-content: space-between;
+}
+.col{
+    width: 50%;
+}
+a:first-of-type,
+.fa-check{
+    font-weight: bold;
+    color: blue;
+}
+
+/* left column */
+.col-left > div:first-child *{
+    padding: 10px 0;
+}
+.col-left > div:first-child{
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+}
+
+.col-left h4{
+    text-transform: uppercase;
+    color: lightslategray;
+    padding: 15px 0;
+}
+.col-left li{
+    padding: 5px 0;
+    margin-left: -5px;
 }
