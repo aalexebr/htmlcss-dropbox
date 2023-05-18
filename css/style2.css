@@ -64,9 +64,11 @@ main{
 
 .row{
     justify-content: space-between;
+    margin: -20px;
 }
 .col{
-    width: 50%;
+    width: calc(50% - 40px);
+    margin: 20px;
 }
 main .col-right-flex a,
 .fa-check,
