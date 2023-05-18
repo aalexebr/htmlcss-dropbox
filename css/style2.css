@@ -6,3 +6,27 @@
 
 }
 
+/* DEBUG */
+
+
+
+/* GENERAL */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* HEADER */
+header{
+    color: rgb(131, 132, 132);
+    padding: 30px 20px;
+}
+header .flex{
+    justify-content: space-between;
+}
