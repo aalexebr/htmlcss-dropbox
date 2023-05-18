@@ -418,15 +418,17 @@ h1{
     width: 90%;
 }
 .question-1:hover > p,
-.question-1:hover > .scroll-down{
+.question-2:hover > p,
+.question-3:hover > p{
     display: block;
-    animation-name: rotate;
+    
 }
-@keyframes rotate {
-    from {
-        0 deg
-    }
+.question-1:hover .fa-chevron-down,
+.question-2:hover .fa-chevron-down,
+.question-3:hover .fa-chevron-down{
+    transform: rotate(180deg);
 }
+
 
 /* FOOTER */
 
