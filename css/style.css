@@ -172,15 +172,19 @@ h1{
     
     padding: 20px 25px;
 }
-.payment-desc ul:first-of-type li:nth-child(2){
+.payment-desc > ul:first-of-type li:nth-child(2){
     color: rgb(159, 157, 157);
     padding-bottom: 20px;
 }
 .payment-desc li{
     padding: 10px 0;
 }
-
-
+.payment-desc .fa-ul li{
+    margin-left: -15px;
+}
+.payment-desc ul:first-child{
+    margin-left: -20px;
+}
 .payment-desc span a,
 .col-big a{
     color: #0000FF;
@@ -190,12 +194,11 @@ h1{
     font-size: 1em;
     margin: 20px 0;
 }
-.payment-desc ul:last-of-type li:before {
-    content: '✓';
+.fa-check{
     color: blue;
-    font-weight: bold;
-  }
-  .payment-desc .button{
+}
+
+.payment-desc .button{
     margin: 40px 10px 20px 0;
     width: 100%;
     padding: 10px;
