@@ -98,12 +98,40 @@ main a:first-child,
 .col-right-flex select{
     width: 100%;
 }
-.col-right-flex > div:first-child{
+.col-right-flex > div:first-child,
+.trial-plan > span{
     font-size: 1.25em;
-    color: lightslategray;
 }
 .col-right-flex .button{
     display: block;
     width: 100%;
-    border-radius: 2px solid lightgrey;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    background-color: white;
+    color: lightslategray;
+    text-align: center;
+    font-weight: 100;
+}
+.col-right-flex div:nth-of-type(9){
+    text-align: center;
+}
+
+.trial-plan{
+    margin: 40px 0;
+}
+
+.plan-type{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+.plan-type  div{
+    display: inline-block;
 }
