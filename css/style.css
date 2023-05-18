@@ -66,12 +66,13 @@ header{
     justify-content: space-between;
     align-items: center;
     color: #616161;
-    /* position: fixed;
+
+    position: sticky;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1;
-    background-color: white; */
+    background-color: white;
 }
 header ul,
 header ul > li{
@@ -99,10 +100,10 @@ header ul > li{
 section{
     padding:70px 0 50px 0;
 }
-main{
+/* main{
     overflow-y: auto;
     overflow-x: hidden;
-}
+} */
 
 /* jumbo */
 
