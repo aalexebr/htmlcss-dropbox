@@ -53,7 +53,7 @@ main{
 .col{
     width: 50%;
 }
-a:first-of-type,
+main a:first-child,
 .fa-check{
     font-weight: bold;
     color: blue;
@@ -76,4 +76,34 @@ a:first-of-type,
 .col-left li{
     padding: 5px 0;
     margin-left: -5px;
+}
+/* right column */
+
+.col-right{
+    padding: 20px;
+    
+}
+.col-right-flex{
+    justify-content: space-between;
+    margin: -10px;
+}
+.col-right-flex > div{
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+.col-right-flex > div:nth-of-type(n+7){
+    width: 100%;
+}
+.col-right-flex input,
+.col-right-flex select{
+    width: 100%;
+}
+.col-right-flex > div:first-child{
+    font-size: 1.25em;
+    color: lightslategray;
+}
+.col-right-flex .button{
+    display: block;
+    width: 100%;
+    border-radius: 2px solid lightgrey;
 }
