@@ -7,6 +7,9 @@
 }
 
 /* GENERAL */
+body{
+    overflow-x: hidden;
+}
 li,
 ul,
 a{
@@ -473,4 +476,23 @@ footer{
 
 .language{
     padding: 20px 0;
+    
+}
+.lang-selector{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+.dropdown-lang{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+}
+.lang-selector:hover .dropdown-lang{
+    display: block;
+}
+.dropdown-lang li:hover{
+    background-color: rgb(85, 86, 86);
 }
