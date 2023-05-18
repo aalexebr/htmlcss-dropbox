@@ -132,6 +132,14 @@ main a:first-child,
     border-radius: 50%;
     border: 5px solid blue;
 }
-.plan-type  div{
-    display: inline-block;
+.plan-type{
+    justify-content: space-evenly;
+}
+.plan-type input{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.plan-type label{
+    width: 80%;
 }
