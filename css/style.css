@@ -62,7 +62,7 @@ h3{
 /* HEADER */
 header{
     width: 100%;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     justify-content: space-between;
     align-items: center;
     color: #616161;
@@ -90,7 +90,7 @@ header ul > li{
     margin-left: 10px;
 }
 header ul > li{
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 .row-left a img{
     vertical-align: middle;
@@ -103,11 +103,21 @@ header ul > li{
 .dropdown-functions{
     display: none;
     position: absolute;
-    background-color: #d1d1d1;
 }
-
 .nav-function:hover .dropdown-functions{
     display: block;
+    background-color: white;
+}
+.col-header ul li a{
+    display: inline-block;
+    padding: 15px;
+}
+.dropdown-functions ul li:hover,
+.nav-function:hover{
+    background-color: #eaeaea;
+}
+.dropdown-functions ul li{
+    width: 100%;
 }
 /* MAIN */
 
